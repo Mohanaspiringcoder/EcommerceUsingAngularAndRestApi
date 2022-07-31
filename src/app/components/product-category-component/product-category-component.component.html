@@ -1,0 +1,18 @@
+
+<body>
+    <button type="button" class="btn btn-secondary" (click)="addProductCategoryDetails()">Add Categoryies</button>
+    
+    <br><br>
+    <table >
+        <tr >
+            <!-- <th>Employee Id </th> -->
+            <th>Category </th>
+            <!-- <th> Net Salary  </th> -->
+        </tr>
+        <tr *ngFor="let list of productCategoryList">
+            <!-- <td>{{list.employeeNumber}}</td> -->
+            <td>{{list.categoryname}}</td>
+            <!-- <td>{{list.netSalary}}</td> -->
+        </tr>
+        </table>
+    </body> 

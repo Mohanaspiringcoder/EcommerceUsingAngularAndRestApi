@@ -1,0 +1,15 @@
+
+
+<body>
+    <form #category = "ngForm" (ngSubmit) = onSubmit()>
+    <div class="form">
+<label> <b>Category Id</b> </label> <br>
+    <input type="number" name="employeeNumber" [(ngModel)]="product.categoryid">    
+    <br>   
+    <label> <b>Category</b> </label> <br>
+    <input type="text" name="department" [(ngModel)]="product.categoryname"> 
+    <br><br>  
+    <button type="button" class="btn btn-secondary" >Add</button>
+     </div> 
+    </form>
+</body>
